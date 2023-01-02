@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 
 
 app.get('/',(req, res) =>{
-    res.sendFile(path.join(__dirname, '/index.html'));
+    res.sendFile(path.join(__dirname, '/home.html'));
 })
 app.get('/pitagora',(req, res) =>{
     res.sendFile(path.join(__dirname, '/static/pages/pitagora.html'));
